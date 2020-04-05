@@ -15,6 +15,8 @@
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">019b622b-0aef-4dd3-86d0-4eef01f3f6bb(jetbrains.mps.ide)</dependency>
     <dependency reexport="false">9175d832-d9a5-425d-a7e9-277580317c03(translator)</dependency>
+    <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
+    <dependency reexport="false">33179490-6db2-4c80-bd28-66b0152ec77c(SemanticLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:33179490-6db2-4c80-bd28-66b0152ec77c:SemanticLanguage" version="0" />
