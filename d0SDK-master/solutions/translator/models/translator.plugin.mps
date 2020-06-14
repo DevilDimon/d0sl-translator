@@ -138,6 +138,12 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
@@ -532,6 +538,28 @@
                   </node>
                   <node concept="liA8E" id="6VW9HMupYyZ" role="2OqNvi">
                     <ref role="37wK5l" to="t6dh:~RDFNode.toString()" resolve="toString" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="2a4_gVdzvyO" role="3cqZAp" />
+            <node concept="3SKdUt" id="2a4_gVdzOtD" role="3cqZAp">
+              <node concept="3SKdUq" id="2a4_gVdzOtF" role="3SKWNk">
+                <property role="3SKdUp" value="Пропускает неполные предикаты" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="2a4_gVdzzf4" role="3cqZAp">
+              <node concept="3clFbS" id="2a4_gVdzzf6" role="3clFbx">
+                <node concept="3N13vt" id="2a4_gVdzN7K" role="3cqZAp" />
+              </node>
+              <node concept="2OqwBi" id="2a4_gVdz$pD" role="3clFbw">
+                <node concept="37vLTw" id="2a4_gVdz$7P" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VW9HMupXE8" resolve="argument" />
+                </node>
+                <node concept="liA8E" id="2a4_gVdzCT$" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                  <node concept="Xl_RD" id="2a4_gVdzCWK" role="37wK5m">
+                    <property role="Xl_RC" value="_obj" />
                   </node>
                 </node>
               </node>
